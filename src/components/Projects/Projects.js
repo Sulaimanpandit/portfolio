@@ -8,6 +8,10 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import testC from "../../Assets/Projects/testC.jpg"
+import contact from "../../Assets/contact.jpg";
+import twon from "../../Assets/twon.png";
+import foodM from "../../Assets/foodM.png";
 
 function Projects() {
   return (
@@ -18,54 +22,54 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on personally.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={contact}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Scenario writing for saving contact number"
+              description="Saving contact number scenario refers to a specific sequence of steps or interactions that are performed to test a particular aspect, feature, or functionality of a software application, Scenarios are designed to simulate real-world usage situations and help testers identify potential issues, defects, or problems within the software"
+              ghLink="https://github.com/Sulaimanpandit/Scenario-for-saving-contact-number.git"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={twon}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Home town App's Bugs"
+              description="A bug report, also known as a defect report or issue report, is a formal document used in software development and testing to communicate and document issues or defects found in a software application. Writing effective bug reports is crucial for the development team to understand, reproduce, and ultimately fix the reported issues"
+              ghLink="https://github.com/Sulaimanpandit/Home-town-App-s-Bugs.git"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={foodM}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Bug's for Foodmela App"
+              description="Identifying and addressing Foodmela application bugs is a critical part of software development and testing, as it ensures that the software functions correctly, meets user expectations, and maintains a high level of quality."
+              ghLink="https://github.com/Sulaimanpandit/-Bug-s-for-Foodmela.git"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={testC}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Test Cases & Test case template"
+              description="Creating well-structured test cases helps ensure thorough coverage of the software's functionality and aids in identifying defects and inconsistencies early in the development process. Test cases are often organized into test suites, which group related test cases together for more efficient testing."
+              ghLink="https://github.com/Sulaimanpandit/TEMPLATE-TestCase.git"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -86,7 +90,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

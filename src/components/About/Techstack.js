@@ -2,39 +2,55 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
+  DiDocker,
+  // DiReact,
+  DiJenkins,
+  // DiMongodb,
+  DiAws,
   DiGit,
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
+  SiGit,
+  SiGithub,
+  // SiNextdotjs,
+  // SiSolidity,
   SiPostgresql,
+  SiPostman,
+  SiJirasoftware,
+  SiKubernetes,
+  SiWorkplace,
+  SiOculus,
+  SiMeta,
+  SiSlack,
+  SiMacos,
+  SiAndroid,
+  SiLinux,
+  SiWindows,
+  SiUbuntu,
+  SiQuest,
+  SiFacebook,
+  SiFacebookgaming,
+  SiInstagram,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import {TbBrandFigma } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        {<SiPostman/>}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        {<DiDocker/>}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <TbBrandFigma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiJenkins />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -45,25 +61,72 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+      <Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit >
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJirasoftware/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWorkplace/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        < SiOculus/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        < SiMeta/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        < SiSlack/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMacos/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        < SiAndroid/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLinux/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWindows/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiUbuntu/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiQuest/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        < SiFacebook/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFacebookgaming/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiInstagram/>
+      </Col>
+    
+      
     </Row>
   );
 }
